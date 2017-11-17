@@ -1,0 +1,47 @@
+body {
+	background-color: grey;
+}
+
+h1 {
+	font-family: Arial, sans-serif;
+}
+.crven-naslov {
+color: red;
+font-size: 40px;
+}
+.crven-naslov:hover {
+	color: green;
+}
+#sin-naslov {
+color: blue;
+text-decoration: underline;
+}
+.dj-marte{
+	width: 500px;
+	/*height: 500px;*/
+	background-color: orange;
+	/*overflow: scroll;*/
+}
+ 
+.link {
+ font-size: 40px;
+ text-decoration: none;
+ text-transform: uppercase;
+ color: white;
+ display: block;
+ background-color: blue;
+ width: 200px;
+ text-align: center;
+
+}
+.link:hover {
+	background-color: red;
+	width: 300px;
+	color: blue;
+}
+table, th, td {
+	border: 1px solid blue;
+	background-color: green;
+	color: white;
+	border-collapse: collapse;
+}
