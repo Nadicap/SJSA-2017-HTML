@@ -1,0 +1,289 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.holder {
+	width: 940px;
+	height: 1600px;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+header {
+	width: 940px;
+	height: 
+}
+.header-left {
+	width: 320px;
+	height: 137px;
+	/*background-color: grey;*/
+	float: left;
+}
+.header-left img {
+   margin: 37px 0 0 15px;
+}
+.header-right {
+	width: 620px;
+	height: 137px;
+	/*background-color: green;*/
+	float: right;
+}
+.header-right ul {
+	width: 560px;
+	height: 40px;
+	float: right;
+	/*background-color: orange;*/
+	margin: 60px 0 0 0;
+	padding: 0;
+	list-style-type: none;
+}
+.header-right ul li {
+height: 40px;
+float: left;
+padding: 0 10px;
+border-left: 1px dotted #666666;
+
+}
+.header-right ul li h1 {
+	font-family: Georgia;
+	font-size: 14px;
+	color: #666666;
+	text-transform: uppercase;
+	/*margin: 0;*/
+	/*padding: 0;*/
+
+}
+.header-right ul li span {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #b7b7b7;
+
+}
+.header-right ul li a {
+	text-decoration: none;
+	height: 40px;
+}
+.senka {
+	height: 13px;
+	width: 930px;
+	background-image: url('slider-shadow.png');
+	display: block;
+	float: left;
+}
+.slider {
+	width: 940px;
+	height: 410px;
+	float: left;
+}
+.slider img {
+	float: left;
+
+}
+.slider h1 {
+	width: 940px;
+	font-size: 24px;
+	text-align: center;
+	height: 50px;
+	border-bottom: 1px solid #e5e5e5;
+	float: left;
+	font-family: Georgia;
+}
+ul.main-list {
+	width: 940px;
+	height: 435px;
+	/*background-color: green;*/
+	margin: 50px 0 0 0;
+	padding: 0;
+	float: left;
+	list-style-type: none;
+}
+.main-list li {
+	width: 300px;
+	height: 435px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+.main-list li:last-child {
+	margin: 0;
+}
+.main-list li:nth-child(3) {
+
+}
+.main-list li {
+	height: 435px;
+	width: 300px;
+	float: left;
+	margin: 0 20px 0 0;
+
+}
+header.list-header {
+	height: 40px;
+	width: 300px;
+
+}
+.list-header h1 {
+	font-family: Georgia;
+	font-size: 21px;
+	margin: 0;
+	padding: 0;
+	color: #11719e;
+	width: 300px;
+}
+.light-header span {
+	display: block;
+	color: #666666;
+	font-family: Helvetica;
+	font-size: 12px;
+	width: 300px;
+}
+span .gorna-senka {
+	width: 299px;
+	height: 3px;
+	display: block;
+	background-image: url(img1.png);
+}
+.dolna-senka {
+	width: 299px;
+	height: 3px;
+	display: block;
+	background-image: url(img-shadow-holder.png);
+}
+.img-holders {
+	height: 205px;
+	margin: 20px 0 0 0;
+	float: left;
+}	
+.img-holders img {
+	float: left;
+}
+.main-list p {
+	color: #3e3e3e;
+	font-family: Helvetica;
+	font-size: 13px;
+	line-height: 18px;
+}
+.main-list a {
+	display: block;
+	float: left;
+	width: 160px;
+	height: 30px;
+	background-color: #e8e8e8;
+	border: 1px solid #d8d8d8;
+	border-radius: 5px;
+}
+.link-tekst {
+	color: #016999;
+	display: block;
+	float: left;
+	font-family: Helvetica;
+	font-size: 13px;
+	margin: 7px 0 0 12px;
+}
+.link-arrow {
+   width: 18px;
+   height: 7px;
+   display: block;
+   float: right;
+   background-image: url('link-arrow.png')
+   margin: 7px 0 0 12px;
+}
+ul.vtora-klasa {
+   width: 940px;
+   height: 340px;
+   float: left;
+   background-color: red;
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+ul.vtora-klasa li {
+	width: 300px;
+	height: 340px;
+	float: left;
+	margin: 0 20px 0 0;
+	background-color: blue;
+}
+ul.vtora-klasa li:last-child {
+	margin: 0;
+}
+ul.vtora-klasa li h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: Georgia;
+	font-weight: 400px;
+	color: #444444;
+	background-color: yellow;
+	border-bottom: 1px dashed #444444;
+	padding: 0 0 10px 0;
+}
+ul.vtora-klasa li p {
+	margin: 10px 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: Helvetica;
+}
+ul.social {
+	width: 300px;
+	height: 50px;
+	/*background-color: orange;*/
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}
+ul.social li {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0 12px 0 0;
+
+}
+ul.vtora-klasa li h2 {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #444444;
+	border-bottom: 1px dashed #444444;
+	padding: 0 0 10px 0;
+	margin: 45px 0 0 0;
+
+}
+ul.vtora-klasa input {
+	width: 280px;
+	height: 33px;
+	border-radius: 5px;
+	border: 1px solid #444444;
+	padding: 0 0 0 10px;
+}
+input.kopce {
+	width: 160px !important;
+	height: 30px !important;
+	margin: 10px 0 0 0;
+	float: left;
+	background-color: #4e85be;
+	display: block;
+	border: 1px solid #004a80;
+	color: #fff;
+	text-align: left;
+
+}
+form.kontakt-forma {
+	width: 300px;
+	height: 320px;
+	padding: 10px 0 0 0;
+}
+form.kontakt-forma input {
+	width: 280px;
+	height: 33px;
+	margin: 0 0 10px 0;
+	border: 1px solid #444444;
+}
+form.kontakt-forma textarea {
+	width: 270px;
+	height: 135px;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: Georgia;
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
