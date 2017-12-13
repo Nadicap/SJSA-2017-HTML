@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	<style type="text/css">
+		body{
+			background-color: #ecf0f1;
+			margin: 0px;
+			text-align: center;
+			font-family: sans-serif;
+		}
+		
+		#main_container{
+			display: inline-block;
+			width: 400px;
+			background: #fff;
+			border: 1px solid rgba(0, 0, 0, 0.2);
+			margin: 50px 0px 0px 0px;
+
+		}
+
+		.mc_header{
+			background: #34495e;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			box-sizing: border-box;
+			padding: 20px;
+		}
+
+		.mc_header h1{
+			margin: 0px;
+			font-size: 18px;
+			color: #fff;
+		}
+
+		.single_item{
+			background: #fff;
+			box-sizing: border-box;
+			padding: 10px 20px;
+			border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.single_item h2{
+			color: #34495e;
+			margin: 0px;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<div id="main_container">
+		<div class="mc_header">
+			<h1>Supported by</h1>
+			<img id="logo" src="#">
+		</div>
+
+		<div class="single_item">
+			<h2>The Weather in:</h2>
+			<h2 id="location">Locating...</h2>
+		</div>
+
+		<div class="single_item">
+			<h2>At this moment (in C)</h2>
+			<h2 id="temp">Locating...</h2>
+			<img id="momentIcon" src="#">
+		</div>
+
+		<div class="single_item">
+			<h2>Wind:</h2>
+			<h2 id="wind">Locating...</h2>
+		</div>
+	</div>
+<script type="text/javascript" src="js/global_02.js"></script>
+</body>
+</html>
